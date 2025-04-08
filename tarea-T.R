@@ -13,7 +13,7 @@ mean(equipo_a)
 mean(equipo_b)
 
 
-# Realizar la prueba T (Welch Two Sample t-test por defecto)
+# Realizar la prueba T 
 resultado_ttest <- t.test(equipo_a, equipo_b)
 
 # Mostrar los resultados completos de la prueba
